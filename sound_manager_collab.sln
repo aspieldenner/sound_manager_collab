@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7AE74BE8-A368-12E5-ABE3-F85E840CC0D2}") = "sound_manager_collab", "Assembly-CSharp-firstpass.csproj", "{7FC867DE-47D0-D269-3E37-09209E4014B5}"
+EndProject
+Project("{7AE74BE8-A368-12E5-ABE3-F85E840CC0D2}") = "sound_manager_collab", "Assembly-CSharp.csproj", "{43C55512-35C8-0648-3330-1424B01D8746}"
+EndProject
+Project("{7AE74BE8-A368-12E5-ABE3-F85E840CC0D2}") = "sound_manager_collab", "Assembly-CSharp-Editor.csproj", "{C29DC4F2-E66F-CF27-696E-954375C9EE68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FC867DE-47D0-D269-3E37-09209E4014B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC867DE-47D0-D269-3E37-09209E4014B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC867DE-47D0-D269-3E37-09209E4014B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC867DE-47D0-D269-3E37-09209E4014B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C55512-35C8-0648-3330-1424B01D8746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C55512-35C8-0648-3330-1424B01D8746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C55512-35C8-0648-3330-1424B01D8746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C55512-35C8-0648-3330-1424B01D8746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29DC4F2-E66F-CF27-696E-954375C9EE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29DC4F2-E66F-CF27-696E-954375C9EE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29DC4F2-E66F-CF27-696E-954375C9EE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29DC4F2-E66F-CF27-696E-954375C9EE68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
