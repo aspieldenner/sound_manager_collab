@@ -1,4 +1,4 @@
-﻿//Aaron Spieldenner
+﻿//Aaron Spieldenner, Sergio Ramos, Kristian Veech
 //LMSC-281
 //Sound Manager Collab.
 using UnityEngine;
@@ -22,6 +22,8 @@ public class BackgroundMusic : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
 	
 	}
 }

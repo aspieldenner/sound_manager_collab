@@ -8,7 +8,7 @@ public class SoundManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
@@ -24,7 +24,15 @@ public class SoundManager : MonoBehaviour {
 		if (!thisObject.GetComponent<AudioSource>().isPlaying){ 
 			thisObject.GetComponent<AudioSource>().Play();
 		}
+	}
 
+	public static void PlayExplosion (GameObject thisObject) {
 
+		if (Input.GetButtonDown ("Fire1")) {
+			thisObject.GetComponent<AudioSource> ().Play ();
+			
+		}
 	}
 }
+
+
