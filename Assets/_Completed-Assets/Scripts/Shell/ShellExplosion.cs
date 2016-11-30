@@ -12,6 +12,7 @@ namespace Complete
         public float m_MaxLifeTime = 2f;                    // The time in seconds before the shell is removed.
         public float m_ExplosionRadius = 5f;                // The maximum distance away from the explosion tanks can be and are still affected.
 
+		SoundManager mySound;
 
         private void Start ()
         {
@@ -24,6 +25,8 @@ namespace Complete
         {
 			// Collect all the colliders in a sphere from the shell's current position to a radius of the explosion radius.
             Collider[] colliders = Physics.OverlapSphere (transform.position, m_ExplosionRadius, m_TankMask);
+
+			SoundManager.PlayShellExplosion(m_ExplosionAudio); //trying this now
 
             // Go through all the colliders...
             for (int i = 0; i < colliders.Length; i++)

@@ -34,6 +34,11 @@ public class SoundManager : MonoBehaviour {
 			
 		}
 	}
+
+	//Sergio's idea.  Figured this out with Jeanine's help.  
+	public static void PlayShellExplosion (AudioSource audioToPlay) {
+		audioToPlay.Play ();
+	}
 }
 
 

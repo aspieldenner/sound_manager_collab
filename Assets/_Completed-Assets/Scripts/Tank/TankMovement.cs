@@ -21,6 +21,7 @@ namespace Complete
         private float m_OriginalPitch;              // The pitch of the audio source at the start of the scene.
 
 
+
         private void Awake ()
         {
             m_Rigidbody = GetComponent<Rigidbody> ();
@@ -78,6 +79,7 @@ namespace Complete
                     m_MovementAudio.clip = m_EngineIdling;
                     m_MovementAudio.pitch = Random.Range (m_OriginalPitch - m_PitchRange, m_OriginalPitch + m_PitchRange);
                     m_MovementAudio.Play ();
+
                 }
             }
             else
@@ -89,6 +91,7 @@ namespace Complete
                     m_MovementAudio.clip = m_EngineDriving;
                     m_MovementAudio.pitch = Random.Range(m_OriginalPitch - m_PitchRange, m_OriginalPitch + m_PitchRange);
                     m_MovementAudio.Play();
+
                 }
             }
         }
