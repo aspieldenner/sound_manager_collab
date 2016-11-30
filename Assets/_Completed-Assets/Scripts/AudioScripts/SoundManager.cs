@@ -1,4 +1,4 @@
-﻿//Aaron Spieldenner
+﻿//Aaron Spieldenner, Sergio Ramos, Kristian Veech
 //LMSC-281
 //Sound Manager Collab.
 using UnityEngine;
@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour {
 		}
 	}
 
+	//Made by Kristian Veech
 	public static void PlayExplosion (GameObject thisObject) {
 
 		if (Input.GetButtonDown ("Fire1")) {

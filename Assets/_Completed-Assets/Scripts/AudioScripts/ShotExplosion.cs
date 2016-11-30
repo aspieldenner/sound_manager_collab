@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿//Aaron Spieldenner, Sergio Ramos, Kristian Veech
+//LMSC-281
+//Sound Manager Collab.
+using UnityEngine;
 using System.Collections;
 
 public class ShotExplosion : MonoBehaviour {
